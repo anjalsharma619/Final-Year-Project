@@ -1,0 +1,40 @@
+{
+    "particles":{
+        "number":{
+            "value":150,
+            "density": {
+                "enable": true,
+                "value_area": 1500
+              }
+        },
+        "color":{
+            "value":["#E27D60","fff","#AFD275","#8D8741","#659DBD","#5D5c61"],
+            "random":true
+        },
+        "shape":{
+            "type":"circle",
+            "stroke":{
+                "width":1,
+                "color":"#000"
+            }
+        },
+        "opacity":{
+            "value":0.5,
+            "random":false
+        },
+        "size":{
+            "value":7,
+            "random":true
+        },
+        "line_linked":{
+            "enable":true,
+            "distance":110,
+            "value":"fff"
+        },
+        "move":{
+            "enable":true,
+            "speed":7
+        }
+
+    }
+}

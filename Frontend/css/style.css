@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css?family=Anton|Work+Sans&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+}
+#container{
+    width: auto;
+    height: auto;
+    padding: 0%;
+    margin: 0%;
+    position: relative;
+}
+#particles-js{
+    
+    background-color: #101010;
+    height: 100vh; 
+    width: 70%;
+    float: left;
+  
+}
+#right{
+    width:30%;
+    float: right;
+
+}
+#image{
+    height: 130px;
+    height:120px;
+    border-radius: 50%;
+    align-self: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20%;
+    
+}
+p.center{
+    text-align: center;
+    color: #707070;
+    position: relative;
+    display: block;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    font-family: 'Work Sans', sans-serif;
+}
+input{
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 275px;
+    font-family: 'Work Sans', sans-serif;
+
+}
+.textfield{
+    margin-top: 12px;
+    text-emphasis-color: #707070;
+    height:26px;
+    padding: 1px 1px 1px 10px;
+    font-family: 'Work Sans', sans-serif;
+}
+.button{
+    border: none;
+    cursor: pointer;
+    width: 275px;
+    background-color: #5F8298;
+    color: white;
+    margin-top: 12px;
+    height:30px;
+    border-width: 2px;
+    border-color: #5F8298;
+    padding: 1px 1px 1px 1px;
+    font-family: 'Work Sans', sans-serif;
+}
+.button:hover{
+    font-weight: bold;
+}
+a.btn{
+    text-decoration: none;
+    height: 26px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 275px;
+    text-align: center;
+    color: #5F8298;
+    border-style: solid;
+    padding-top: 6px;
+    font-family: 'Work Sans', sans-serif;
+}
+a:hover{
+    font-weight: bold;
+}
+footer{
+    margin-top: 6rem;
+}
+p.foot{
+    color: #707070;
+    display: block;
+    display: inline;
+    margin-left: 82px;   
+}
+#about{
+    cursor: pointer;
+}
+#about:hover{
+    text-decoration: underline;
+}
+#section-text{
+    
+    color: white;
+    font-family: 'Impact';
+    font-weight: 900;
+    font-size: 80px;
+    margin-top: 15%;
+    display: block;
+    position: absolute;
+    margin-left: 10%;
+}
+.text{
+    text-align: center;
+}
+
+
+span{
+    color: #FFD662;
+}
+#bubble{
+    background: linear-gradient(to top, #2305c7,#00c4ff) ;
+    height: 100vh; 
+    width: 70%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+}
+#google{
+    height:19px;
+    width: 19px;
+    float: left;
+    margin-left: 5px;
+}
+a{
+    text-decoration: none;
+    color: #5F8298;
+}
+#m_top{
+    margin-top: 6rem;
+    font-size: 1.75rem;
+}
+.fish{
+    position: absolute;
+}
+.fish1{
+    top: 15%;
+    height: 120px;
+    animation: animate 40s linear infinite;
+    opacity: 0.3;
+}
+.fish2{
+    top: 60%;
+    height: 60px;
+    animation: animate 35s linear infinite;
+    opacity: 0.6;
+}
+.fish3{
+    top: 85%;
+    height: 80px;
+    animation: animate 20s linear infinite;
+    opacity: 0.4;
+}
+.fishI2{
+    top: 70%;
+    height: 90px;
+    animation: animate2 20s linear infinite;
+    opacity: 0.5;
+}
+.fishI{
+    top: 10%;
+    height: 50px;
+    animation: animate2 35s linear infinite;
+    opacity: 0.7;
+}
+.driver{
+    top: 25%;
+    height: 200px;
+    animation: animate 15s linear infinite;
+    opacity: 0.76;
+}
+@keyframes animate{
+    0%
+    {
+        transform: translateY(-40px);
+        left: -25%;
+    }
+    25%
+    {
+        transform: translateY(0px);
+    }
+    50%
+    {
+        transform: translateY(40px);
+    }
+    75%
+    {
+        transform: translateY(0px);
+    }
+    100%
+    {
+        transform: translateY(-40px);
+        left: 100%;
+    }
+}
+@keyframes animate2{
+    0%
+    {
+        transform: translateY(-40px);
+        right: -25%;
+    }
+    25%
+    {
+        transform: translateY(0px);
+    }
+    50%
+    {
+        transform: translateY(40px);
+    }
+    75%
+    {
+        transform: translateY(0px);
+    }
+    100%
+    {
+        transform: translateY(-40px);
+        right: 100%;
+    }
+}
