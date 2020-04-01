@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Register</title>
     <link rel="stylesheet" href="./css/style.css">
+    <script defer src="./JavaScript/about.js"></script>
 </head>
 <body>
     <div id="container">
@@ -15,8 +16,28 @@
             <img src="./images/fish-i.png" class="fish fishI">
             <img src="./images/fish-i2.png" class="fish fishI2">
             <img src="./images/driver.png" class="fish driver">
+            <div class="modal" id="modal">
+                <div class="modal-header">
+                    <div class="title">About Us</div>
+                    <button data-close-button class="close-button">&times;</button>
+                  </div>
+                  <div class="modal-body">
+                    <p>The project mainly focuses on gender and age detection on a real time environment. It could be useful 
+                       in predicting stocks in a clothing store, buying underage drugs and liquors from medical and liquor stores
+                       respectively. For example, on a clothing store, once the gender and age group of the customer are predicted 
+                       and accordingly and accordingly to the data stored, a manager could maintain its stock as per the flow of 
+                       customer (gender and age). </p><br>
+                    <p>“Real Time age detector along with gender classification” could be used when detecting the age limits and accordingly 
+                      people could sell the products. It would be great if the government keeps the data (from the software) of all the people
+                      who buys the products.As said above, this project could help in stock prediction with the data of the age group and
+                       gender entering the store. With this information, a manager could take decisions and update its stocks. 
+                      </p>
+                  </div>
             
         </div>
+        
+        </div>
+        <div id="overlay"></div> 
         <div id="right">
              <p class="center" id="m_top"><b>Sign Up</b></p>
              <form action="get">
@@ -31,7 +52,7 @@
                  <a href="##Google Site Gmail Maybe##" class="btn"> <img src="./images/google.png" alt="Google" id="google"> Sign Up with Google</a>
                  <p class="center">Already have an account? <a href="./index.html">Sign In</a></p>
            <footer>
-               <p  class="foot" id="about"><b>About Us</b></p>
+               <p  class="foot" id="about" data-modal-target="#modal"><b>About Us</b></p>
                <p  class="foot"><b>&copy; Herald Inc. 2020</b></p>
            </footer>      
          </div>
